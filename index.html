@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NFT drop calendar</title>
+    <!-- Style -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&family=Righteous&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="main-wrapper">
+      <!-- Start Sidebar View For Desktop View -->
+      <div class="sidebar">
+        <a href="#" class="logo"><img src="./assets/img/logo.png" alt="" /></a>
+        <form action="#" class="filter">
+          <div class="search">
+            <label for="search-filter">SEARCH</label>
+            <input
+              type="search"
+              id="search-filter"
+              name="gsearch"
+              placeholder="Search col..."
+            />
+            <img
+              src="./assets/img/search.svg"
+              alt="search icon"
+              class="search-icon"
+            />
+          </div>
+          <div class="date">
+            <label for="date">SALE DATE</label>
+            <input
+              type="date"
+              name="date"
+              id="date-filter"
+              placeholder="2523-05-27"
+            />
+          </div>
+          <div class="sale-price">
+            <label for="from-price">SALE PRICE</label>
+            <div class="wrapper-price">
+              <div class="sub-wrapper">
+                <input
+                  type="text"
+                  name="from-price"
+                  id="from-price"
+                  placeholder="0"
+                />
+                <span class="price-span from-price">FROM</span>
+              </div>
+              <div class="sub-wrapper">
+                <input
+                  type="text"
+                  name="to-price"
+                  id="to-price"
+                  placeholder="2000"
+                />
+                <span class="price-span to-price">TO</span>
+              </div>
+            </div>
+          </div>
+          <div class="supply">
+            <label for="supply">Supply</label>
+            <input type="text" id="supply" name="supply" placeholder="2000" />
+          </div>
+        </form>
+        <div class="get-listed">
+          <a href="#" class="btn-orange get-listed-btn">GET LISTED</a>
+          <span>List your NFT</span>
+        </div>
+        <div class="join-community">JOIN OUR</div>
+        <div class="social-media-link">
+          <a href="https://twitter.com/squaredudesNFT" class="media-btn twitter"
+            >Twitter</a
+          >
+          <a href="https://discord.gg/pwFaMFFpZ6" class="media-btn discord"
+            >Discord</a
+          >
+          <a
+            href="https://zuse.market/collection/0.0.795112"
+            class="media-btn collection"
+            >Collection</a
+          >
+        </div>
+        <div class="privacy">
+          <p class="right-reserved">
+            © 2023 Ethereal Labs. All rights reserved.
+          </p>
+          <p class="privacy-service">
+            <a href="#">Privacy Policy</a> and <a href="#">Terms of Service</a>
+          </p>
+        </div>
+      </div>
+      <!-- End Siderbar View For Desktop View -->
+      <div class="hero">
+        <h2 class="heading2">NFT CALENDARS DROP</h2>
+        <span class="small-text">7 COLLECTIONS</span>
+        <!-- Start Mobile View Filter -->
+        <div class="mobile-view-appear">
+          <div class="menu-btn">
+            FILTER
+            <img src="./assets/img/dropdown.svg" alt="" />
+          </div>
+          <form action="#" class="filter filter-mobile">
+            <div class="search">
+              <label for="search-filter">SEARCH</label>
+              <input
+                type="search"
+                id="search-filter"
+                name="gsearch"
+                placeholder="Search col..."
+              />
+              <img
+                src="./assets/img/search.svg"
+                alt="search icon"
+                class="search-icon"
+              />
+            </div>
+            <div class="date">
+              <label for="date">SALE DATE</label>
+              <input
+                type="date"
+                name="date"
+                id="date-filter"
+                placeholder="2523-05-27"
+              />
+            </div>
+            <div class="sale-price">
+              <label for="from-price">SALE PRICE</label>
+              <div class="wrapper-price">
+                <div class="sub-wrapper">
+                  <input
+                    type="text"
+                    name="from-price"
+                    id="from-price"
+                    placeholder="0"
+                  />
+                  <span class="price-span from-price">FROM</span>
+                </div>
+                <div class="sub-wrapper">
+                  <input
+                    type="text"
+                    name="to-price"
+                    id="to-price"
+                    placeholder="2000"
+                  />
+                  <span class="price-span to-price">TO</span>
+                </div>
+              </div>
+            </div>
+            <div class="supply">
+              <label for="supply">Supply</label>
+              <input type="text" id="supply" name="supply" placeholder="2000" />
+            </div>
+          </form>
+        </div>
+        <!-- End Mobile View Filter -->
+        <div class="date-day-colelctions">
+          <div class="heading3">MARCH 20</div>
+          <span class="small-text">4 DROPS</span>
+          <div class="cards-wrapper">
+            <div class="card">
+              <img src="./assets/img/squaredudes.png" alt="square dudes" />
+              <h3 class="heading4">Square Dudes</h3>
+              <div class="info-wrapper">
+                <ul class="info-links">
+                  <li class="info-link">
+                    <a href="#">Website</a>
+                    <img src="./assets/img/website.svg" alt="" />
+                  </li>
+                  <li class="info-link">
+                    <a href="#" class="twitter"
+                      >Twitter <img src="./assets/img/twitter.svg" alt=""
+                    /></a>
+                  </li>
+                  <li class="info-link">
+                    <a href="#" class="discord"
+                      >Discord <img src="./assets/img/discord.svg" alt=""
+                    /></a>
+                  </li>
+                  <li class="info-link">
+                    <a href="#">Launchpad</a>
+                  </li>
+                </ul>
+                <ul class="info-details">
+                  <li class="info-detail">
+                    <a href="#">Mar 20</a>
+                  </li>
+                  <li class="info-detail">
+                    <a href="#">12PM EST</a>
+                  </li>
+                  <li class="info-detail">
+                    <a href="#"
+                      ><img src="./assets/img/hedera.svg" alt="" />1000</a
+                    >
+                  </li>
+                  <li class="info-detail">
+                    <a href="#">Launchpad</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./assets/img/hangry barboons.png" alt="square dudes" />
+              <h3 class="heading4">Hangry Barboons</h3>
+              <div class="info-wrapper">
+                <ul class="info-links">
+                  <li class="info-link">
+                    <a href="#">Website</a>
+                    <img src="./assets/img/website.svg" alt="" />
+                  </li>
+                  <li class="info-link">
+                    <a href="#" class="twitter"
+                      >Twitter <img src="./assets/img/twitter.svg" alt=""
+                    /></a>
+                  </li>
+                  <li class="info-link">
+                    <a href="#" class="discord"
+                      >Discord <img src="./assets/img/discord.svg" alt=""
+                    /></a>
+                  </li>
+                  <li class="info-link">
+                    <a href="#">Launchpad</a>
+                  </li>
+                </ul>
+                <ul class="info-details">
+                  <li class="info-detail">
+                    <a href="#">Mar 20</a>
+                  </li>
+                  <li class="info-detail">
+                    <a href="#">12PM EST</a>
+                  </li>
+                  <li class="info-detail">
+                    <a href="#"
+                      ><img src="./assets/img/hedera.svg" alt="" />1000</a
+                    >
+                  </li>
+                  <li class="info-detail">
+                    <a href="#">Launchpad</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./assets/img/deadpixel.png" alt="square dudes" />
+              <h3 class="heading4">Dead Pixels</h3>
+              <div class="info-wrapper">
+                <ul class="info-links">
+                  <li class="info-link">
+                    <a href="#">Website</a>
+                    <img src="./assets/img/website.svg" alt="" />
+                  </li>
+                  <li class="info-link">
+                    <a href="#" class="twitter"
+                      >Twitter <img src="./assets/img/twitter.svg" alt=""
+                    /></a>
+                  </li>
+                  <li class="info-link">
+                    <a href="#" class="discord"
+                      >Discord <img src="./assets/img/discord.svg" alt=""
+                    /></a>
+                  </li>
+                  <li class="info-link">
+                    <a href="#">Launchpad</a>
+                  </li>
+                </ul>
+                <ul class="info-details">
+                  <li class="info-detail">
+                    <a href="#">Mar 20</a>
+                  </li>
+                  <li class="info-detail">
+                    <a href="#">12PM EST</a>
+                  </li>
+                  <li class="info-detail">
+                    <a href="#"
+                      ><img src="./assets/img/hedera.svg" alt="" />1000</a
+                    >
+                  </li>
+                  <li class="info-detail">
+                    <a href="#">Launchpad</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="date-day-colelctions">
+          <div class="heading3">MARCH 25</div>
+          <span class="small-text">6 DROPS</span>
+          <div class="cards-wrapper">
+            <div class="card">
+              <img src="./assets/img/squaredudes.png" alt="square dudes" />
+              <h3 class="heading4">Square Dudes</h3>
+              <div class="info-wrapper">
+                <ul class="info-links">
+                  <li class="info-link">
+                    <a href="#">Website</a>
+                    <img src="./assets/img/website.svg" alt="" />
+                  </li>
+                  <li class="info-link">
+                    <a href="#" class="twitter"
+                      >Twitter <img src="./assets/img/twitter.svg" alt=""
+                    /></a>
+                  </li>
+                  <li class="info-link">
+                    <a href="#" class="discord"
+                      >Discord <img src="./assets/img/discord.svg" alt=""
+                    /></a>
+                  </li>
+                  <li class="info-link">
+                    <a href="#">Launchpad</a>
+                  </li>
+                </ul>
+                <ul class="info-details">
+                  <li class="info-detail">
+                    <a href="#">Mar 25</a>
+                  </li>
+                  <li class="info-detail">
+                    <a href="#">12PM EST</a>
+                  </li>
+                  <li class="info-detail">
+                    <a href="#"
+                      ><img src="./assets/img/hedera.svg" alt="" />1000</a
+                    >
+                  </li>
+                  <li class="info-detail">
+                    <a href="#">Launchpad</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./assets/img/squaredudes.png" alt="square dudes" />
+              <h3 class="heading4">Square Dudes</h3>
+              <div class="info-wrapper">
+                <ul class="info-links">
+                  <li class="info-link">
+                    <a href="#">Website</a>
+                    <img src="./assets/img/website.svg" alt="" />
+                  </li>
+                  <li class="info-link">
+                    <a href="#" class="twitter"
+                      >Twitter <img src="./assets/img/twitter.svg" alt=""
+                    /></a>
+                  </li>
+                  <li class="info-link">
+                    <a href="#" class="discord"
+                      >Discord <img src="./assets/img/discord.svg" alt=""
+                    /></a>
+                  </li>
+                  <li class="info-link">
+                    <a href="#">Launchpad</a>
+                  </li>
+                </ul>
+                <ul class="info-details">
+                  <li class="info-detail">
+                    <a href="#">Mar 25</a>
+                  </li>
+                  <li class="info-detail">
+                    <a href="#">12PM EST</a>
+                  </li>
+                  <li class="info-detail">
+                    <a href="#"
+                      ><img src="./assets/img/hedera.svg" alt="" />1000</a
+                    >
+                  </li>
+                  <li class="info-detail">
+                    <a href="#">Launchpad</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./assets/img/squaredudes.png" alt="square dudes" />
+              <h3 class="heading4">Square Dudes</h3>
+              <div class="info-wrapper">
+                <ul class="info-links">
+                  <li class="info-link">
+                    <a href="#">Website</a>
+                    <img src="./assets/img/website.svg" alt="" />
+                  </li>
+                  <li class="info-link">
+                    <a href="#" class="twitter"
+                      >Twitter <img src="./assets/img/twitter.svg" alt=""
+                    /></a>
+                  </li>
+                  <li class="info-link">
+                    <a href="#" class="discord"
+                      >Discord <img src="./assets/img/discord.svg" alt=""
+                    /></a>
+                  </li>
+                  <li class="info-link">
+                    <a href="#">Launchpad</a>
+                  </li>
+                </ul>
+                <ul class="info-details">
+                  <li class="info-detail">
+                    <a href="#">Mar 25</a>
+                  </li>
+                  <li class="info-detail">
+                    <a href="#">12PM EST</a>
+                  </li>
+                  <li class="info-detail">
+                    <a href="#"
+                      ><img src="./assets/img/hedera.svg" alt="" />1000</a
+                    >
+                  </li>
+                  <li class="info-detail">
+                    <a href="#">Launchpad</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./assets/img/squaredudes.png" alt="square dudes" />
+              <h3 class="heading4">Square Dudes</h3>
+              <div class="info-wrapper">
+                <ul class="info-links">
+                  <li class="info-link">
+                    <a href="#">Website</a>
+                    <img src="./assets/img/website.svg" alt="" />
+                  </li>
+                  <li class="info-link">
+                    <a href="#" class="twitter"
+                      >Twitter <img src="./assets/img/twitter.svg" alt=""
+                    /></a>
+                  </li>
+                  <li class="info-link">
+                    <a href="#" class="discord"
+                      >Discord <img src="./assets/img/discord.svg" alt=""
+                    /></a>
+                  </li>
+                  <li class="info-link">
+                    <a href="#">Launchpad</a>
+                  </li>
+                </ul>
+                <ul class="info-details">
+                  <li class="info-detail">
+                    <a href="#">Mar 25</a>
+                  </li>
+                  <li class="info-detail">
+                    <a href="#">12PM EST</a>
+                  </li>
+                  <li class="info-detail">
+                    <a href="#"
+                      ><img src="./assets/img/hedera.svg" alt="" />1000</a
+                    >
+                  </li>
+                  <li class="info-detail">
+                    <a href="#">Launchpad</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./assets/img/squaredudes.png" alt="square dudes" />
+              <h3 class="heading4">Square Dudes</h3>
+              <div class="info-wrapper">
+                <ul class="info-links">
+                  <li class="info-link">
+                    <a href="#">Website</a>
+                    <img src="./assets/img/website.svg" alt="" />
+                  </li>
+                  <li class="info-link">
+                    <a href="#" class="twitter"
+                      >Twitter <img src="./assets/img/twitter.svg" alt=""
+                    /></a>
+                  </li>
+                  <li class="info-link">
+                    <a href="#" class="discord"
+                      >Discord <img src="./assets/img/discord.svg" alt=""
+                    /></a>
+                  </li>
+                  <li class="info-link">
+                    <a href="#">Launchpad</a>
+                  </li>
+                </ul>
+                <ul class="info-details">
+                  <li class="info-detail">
+                    <a href="#">Mar 25</a>
+                  </li>
+                  <li class="info-detail">
+                    <a href="#">12PM EST</a>
+                  </li>
+                  <li class="info-detail">
+                    <a href="#"
+                      ><img src="./assets/img/hedera.svg" alt="" />1000</a
+                    >
+                  </li>
+                  <li class="info-detail">
+                    <a href="#">Launchpad</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./assets/img/squaredudes.png" alt="square dudes" />
+              <h3 class="heading4">Square Dudes</h3>
+              <div class="info-wrapper">
+                <ul class="info-links">
+                  <li class="info-link">
+                    <a href="#">Website</a>
+                    <img src="./assets/img/website.svg" alt="" />
+                  </li>
+                  <li class="info-link">
+                    <a href="#" class="twitter"
+                      >Twitter <img src="./assets/img/twitter.svg" alt=""
+                    /></a>
+                  </li>
+                  <li class="info-link">
+                    <a href="#" class="discord"
+                      >Discord <img src="./assets/img/discord.svg" alt=""
+                    /></a>
+                  </li>
+                  <li class="info-link">
+                    <a href="#">Launchpad</a>
+                  </li>
+                </ul>
+                <ul class="info-details">
+                  <li class="info-detail">
+                    <a href="#">Mar 25</a>
+                  </li>
+                  <li class="info-detail">
+                    <a href="#">12PM EST</a>
+                  </li>
+                  <li class="info-detail">
+                    <a href="#"
+                      ><img src="./assets/img/hedera.svg" alt="" />1000</a
+                    >
+                  </li>
+                  <li class="info-detail">
+                    <a href="#">Launchpad</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="date-day-colelctions">
+          <div class="heading3">MARCH 25</div>
+          <span class="small-text">6 DROPS</span>
+          <div class="cards-wrapper">
+            <div class="card">
+              <img src="./assets/img/squaredudes.png" alt="square dudes" />
+              <h3 class="heading4">Square Dudes</h3>
+              <div class="info-wrapper">
+                <ul class="info-links">
+                  <li class="info-link">
+                    <a href="#">Website</a>
+                    <img src="./assets/img/website.svg" alt="" />
+                  </li>
+                  <li class="info-link">
+                    <a href="#" class="twitter"
+                      >Twitter <img src="./assets/img/twitter.svg" alt=""
+                    /></a>
+                  </li>
+                  <li class="info-link">
+                    <a href="#" class="discord"
+                      >Discord <img src="./assets/img/discord.svg" alt=""
+                    /></a>
+                  </li>
+                  <li class="info-link">
+                    <a href="#">Launchpad</a>
+                  </li>
+                </ul>
+                <ul class="info-details">
+                  <li class="info-detail">
+                    <a href="#">Mar 25</a>
+                  </li>
+                  <li class="info-detail">
+                    <a href="#">12PM EST</a>
+                  </li>
+                  <li class="info-detail">
+                    <a href="#"
+                      ><img src="./assets/img/hedera.svg" alt="" />1000</a
+                    >
+                  </li>
+                  <li class="info-detail">
+                    <a href="#">Launchpad</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./assets/img/squaredudes.png" alt="square dudes" />
+              <h3 class="heading4">Square Dudes</h3>
+              <div class="info-wrapper">
+                <ul class="info-links">
+                  <li class="info-link">
+                    <a href="#">Website</a>
+                    <img src="./assets/img/website.svg" alt="" />
+                  </li>
+                  <li class="info-link">
+                    <a href="#" class="twitter"
+                      >Twitter <img src="./assets/img/twitter.svg" alt=""
+                    /></a>
+                  </li>
+                  <li class="info-link">
+                    <a href="#" class="discord"
+                      >Discord <img src="./assets/img/discord.svg" alt=""
+                    /></a>
+                  </li>
+                  <li class="info-link">
+                    <a href="#">Launchpad</a>
+                  </li>
+                </ul>
+                <ul class="info-details">
+                  <li class="info-detail">
+                    <a href="#">Mar 25</a>
+                  </li>
+                  <li class="info-detail">
+                    <a href="#">12PM EST</a>
+                  </li>
+                  <li class="info-detail">
+                    <a href="#"
+                      ><img src="./assets/img/hedera.svg" alt="" />1000</a
+                    >
+                  </li>
+                  <li class="info-detail">
+                    <a href="#">Launchpad</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./assets/img/squaredudes.png" alt="square dudes" />
+              <h3 class="heading4">Square Dudes</h3>
+              <div class="info-wrapper">
+                <ul class="info-links">
+                  <li class="info-link">
+                    <a href="#">Website</a>
+                    <img src="./assets/img/website.svg" alt="" />
+                  </li>
+                  <li class="info-link">
+                    <a href="#" class="twitter"
+                      >Twitter <img src="./assets/img/twitter.svg" alt=""
+                    /></a>
+                  </li>
+                  <li class="info-link">
+                    <a href="#" class="discord"
+                      >Discord <img src="./assets/img/discord.svg" alt=""
+                    /></a>
+                  </li>
+                  <li class="info-link">
+                    <a href="#">Launchpad</a>
+                  </li>
+                </ul>
+                <ul class="info-details">
+                  <li class="info-detail">
+                    <a href="#">Mar 25</a>
+                  </li>
+                  <li class="info-detail">
+                    <a href="#">12PM EST</a>
+                  </li>
+                  <li class="info-detail">
+                    <a href="#"
+                      ><img src="./assets/img/hedera.svg" alt="" />1000</a
+                    >
+                  </li>
+                  <li class="info-detail">
+                    <a href="#">Launchpad</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./assets/img/squaredudes.png" alt="square dudes" />
+              <h3 class="heading4">Square Dudes</h3>
+              <div class="info-wrapper">
+                <ul class="info-links">
+                  <li class="info-link">
+                    <a href="#">Website</a>
+                    <img src="./assets/img/website.svg" alt="" />
+                  </li>
+                  <li class="info-link">
+                    <a href="#" class="twitter"
+                      >Twitter <img src="./assets/img/twitter.svg" alt=""
+                    /></a>
+                  </li>
+                  <li class="info-link">
+                    <a href="#" class="discord"
+                      >Discord <img src="./assets/img/discord.svg" alt=""
+                    /></a>
+                  </li>
+                  <li class="info-link">
+                    <a href="#">Launchpad</a>
+                  </li>
+                </ul>
+                <ul class="info-details">
+                  <li class="info-detail">
+                    <a href="#">Mar 25</a>
+                  </li>
+                  <li class="info-detail">
+                    <a href="#">12PM EST</a>
+                  </li>
+                  <li class="info-detail">
+                    <a href="#"
+                      ><img src="./assets/img/hedera.svg" alt="" />1000</a
+                    >
+                  </li>
+                  <li class="info-detail">
+                    <a href="#">Launchpad</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./assets/img/squaredudes.png" alt="square dudes" />
+              <h3 class="heading4">Square Dudes</h3>
+              <div class="info-wrapper">
+                <ul class="info-links">
+                  <li class="info-link">
+                    <a href="#">Website</a>
+                    <img src="./assets/img/website.svg" alt="" />
+                  </li>
+                  <li class="info-link">
+                    <a href="#" class="twitter"
+                      >Twitter <img src="./assets/img/twitter.svg" alt=""
+                    /></a>
+                  </li>
+                  <li class="info-link">
+                    <a href="#" class="discord"
+                      >Discord <img src="./assets/img/discord.svg" alt=""
+                    /></a>
+                  </li>
+                  <li class="info-link">
+                    <a href="#">Launchpad</a>
+                  </li>
+                </ul>
+                <ul class="info-details">
+                  <li class="info-detail">
+                    <a href="#">Mar 25</a>
+                  </li>
+                  <li class="info-detail">
+                    <a href="#">12PM EST</a>
+                  </li>
+                  <li class="info-detail">
+                    <a href="#"
+                      ><img src="./assets/img/hedera.svg" alt="" />1000</a
+                    >
+                  </li>
+                  <li class="info-detail">
+                    <a href="#">Launchpad</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./assets/img/squaredudes.png" alt="square dudes" />
+              <h3 class="heading4">Square Dudes</h3>
+              <div class="info-wrapper">
+                <ul class="info-links">
+                  <li class="info-link">
+                    <a href="#">Website</a>
+                    <img src="./assets/img/website.svg" alt="" />
+                  </li>
+                  <li class="info-link">
+                    <a href="#" class="twitter"
+                      >Twitter <img src="./assets/img/twitter.svg" alt=""
+                    /></a>
+                  </li>
+                  <li class="info-link">
+                    <a href="#" class="discord"
+                      >Discord <img src="./assets/img/discord.svg" alt=""
+                    /></a>
+                  </li>
+                  <li class="info-link">
+                    <a href="#">Launchpad</a>
+                  </li>
+                </ul>
+                <ul class="info-details">
+                  <li class="info-detail">
+                    <a href="#">Mar 25</a>
+                  </li>
+                  <li class="info-detail">
+                    <a href="#">12PM EST</a>
+                  </li>
+                  <li class="info-detail">
+                    <a href="#"
+                      ><img src="./assets/img/hedera.svg" alt="" />1000</a
+                    >
+                  </li>
+                  <li class="info-detail">
+                    <a href="#">Launchpad</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

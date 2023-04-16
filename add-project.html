@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NFT drop calendar</title>
+    <!-- Style -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/admin.css" />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&family=Righteous&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="main-wrapper">
+      <!-- Start Sidebar View For Desktop View -->
+      <div class="sidebar">
+        <a href="#" class="logo"><img src="./assets/img/logo.png" alt="" /></a>
+        <ul class="list-items">
+          <li class="list-item">
+            <a class="heading4" href="/projects.html">
+              <img src="./assets/img/projects.svg" alt="" /> PROJECTS
+            </a>
+          </li>
+          <li class="list-item">
+            <a class="heading4 active" href="/add-project.html">
+              <img src="./assets/img/plus.svg" alt="" /> ADD PROJECT
+            </a>
+          </li>
+        </ul>
+        <div class="privacy">
+          <p class="right-reserved">
+            © 2023 Ethereal Labs. All rights reserved.
+          </p>
+          <p class="privacy-service">
+            <a href="#">Privacy Policy</a> and <a href="#">Terms of Service</a>
+          </p>
+        </div>
+      </div>
+      <!-- End Siderbar View For Desktop View -->
+      <div class="hero">
+        <h2 class="heading2">ADD PROJECT</h2>
+        <span class="small-text">NEW PROJECT</span>
+        <form class="nft-form" action="#" method="get">
+          <div class="input-wrapper">
+            <label for="nft-image">UPLOAD IMAGE</label>
+            <input
+              type="file"
+              class="admin-input"
+              alt="image"
+              id="nft-image"
+              accept="image/*"
+            />
+          </div>
+          <div class="input-wrapper">
+            <label for="nft-name">PROJECT NAME</label>
+            <input
+              type="text"
+              class="admin-input"
+              placeholder="Enter..."
+              id="nft-name"
+            />
+          </div>
+          <div class="input-wrapper">
+            <label for="nft-meeting-time">LAUNCH DATE</label>
+            <input
+              type="datetime-local"
+              class="admin-input"
+              id="nft-meeting-time"
+              name="meeting-time"
+              value="2018-06-12T19:30"
+            />
+          </div>
+          <div class="input-wrapper">
+            <label for="nft-website">Website</label>
+            <input
+              type="text"
+              class="admin-input"
+              name="https://..."
+              id="nft-name"
+              placeholder="https://..."
+            />
+          </div>
+          <div class="input-wrapper">
+            <label for="nft-discord">discord</label>
+            <input
+              type="text"
+              class="admin-input"
+              name="https://..."
+              id="nft-name"
+              placeholder="https://..."
+            />
+          </div>
+          <div class="input-wrapper">
+            <label for="nft-twitter">twitter</label>
+            <input
+              type="text"
+              class="admin-input"
+              name="https://..."
+              id="nft-name"
+              placeholder="https://..."
+            />
+          </div>
+          <div class="input-wrapper">
+            <label for="nft-launch">launch</label>
+            <input
+              type="text"
+              class="admin-input"
+              name="https://..."
+              id="nft-name"
+              placeholder="https://..."
+            />
+          </div>
+          <div class="input-wrapper">
+            <label for="nft-price">Price in HBAR</label>
+            <input
+              type="number"
+              class="admin-input"
+              name="1000"
+              id="nft-price"
+              placeholder="1000..."
+            />
+          </div>
+          <div class="input-wrapper">
+            <label for="nft-supply">Supply</label>
+            <input
+              type="number"
+              class="admin-input"
+              name="1000"
+              id="nft-supply"
+              placeholder="1000..."
+            />
+          </div>
+          <div class="input-wrapper">
+            <input class="btn-orange" type="button" value="ADD" id="nft-btn" />
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
